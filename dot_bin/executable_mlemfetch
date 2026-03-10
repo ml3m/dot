@@ -170,7 +170,7 @@ get_terminal() {
 }
 
 get_cpu() {
-  grep -m1 'model name' /proc/cpuinfo | cut -d: -f2 | sed 's/^ //'
+  grep -m1 'model name' /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ with.*$//;s/ *$//'
 }
 
 get_memory() {
