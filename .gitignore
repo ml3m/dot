@@ -1,0 +1,6 @@
+
+# Nested git dirs (themes/nvim submodule histories)
+dot_config/nvim/dot_git/
+dot_config/omarchy/themes/artzen/dot_git/
+dot_config/omarchy/themes/aura/dot_git/
+dot_config/omarchy/themes/rose-pine-dark/dot_git/
