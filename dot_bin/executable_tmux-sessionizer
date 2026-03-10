@@ -5,6 +5,8 @@ DIRS=(
     "$HOME/projects"
     "$HOME/.config"
     "$HOME/Downloads"
+    "$HOME"
+    "$HOME/.local"
 )
 
 switch_to() {
@@ -15,7 +17,7 @@ switch_to() {
     fi
 }
 
-has_session(){
+has_session() {
     tmux list-sessions | grep -q "^$1:"
 }
 

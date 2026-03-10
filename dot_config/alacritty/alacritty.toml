@@ -23,8 +23,8 @@ smooth_motion_max_stretch_y = 3.0
 save_to_clipboard = true
 
 [window]
-padding.x = 14
-padding.y = 14
+padding.x = 10
+padding.y = 10
 decorations = "None"
 
 [keyboard]
