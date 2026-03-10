@@ -12,12 +12,12 @@ Screenshots
 
 .. image:: screenshots/1.png
    :alt: Desktop screenshot
-   :width: 600
+   :width: 800
    :align: center
 
 .. image:: screenshots/2.png
    :alt: Desktop screenshot
-   :width: 600
+   :width: 800
    :align: center
 
 ----------------------------------------------------------------------
