@@ -25,3 +25,7 @@ vim.opt.colorcolumn = "80"
 
 -- Allow conceal (needed for obsidian/render-markdown)
 vim.opt.conceallevel = 2
+
+-- Show hidden files in netrw (Ex explorer)
+vim.g.netrw_hide = 0
+vim.g.netrw_list_hide = ""
